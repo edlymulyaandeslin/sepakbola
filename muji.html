@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perkenalan</title>
+    <style>
+      /* Reset CSS */
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Body styling */
+      body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(
+          to bottom,
+          #0f9200,
+          #0c6e00
+        ); /* Lapangan hijau */
+        color: #fff;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+
+      /* Container styling */
+      div {
+        background-color: rgba(255, 255, 255, 0.2); /* Transparansi elemen */
+        border: 2px solid #fff;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 10px 0;
+        width: 90%;
+        max-width: 400px;
+        text-align: center;
+      }
+
+      /* Label styling */
+      label {
+        display: block;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 5px;
+        text-shadow: 1px 1px 3px #000;
+      }
+
+      /* Paragraph styling */
+      p {
+        font-size: 1.1rem;
+        margin: 5px 0;
+        text-shadow: 1px 1px 2px #000;
+      }
+
+      /* Image styling */
+      img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        margin-top: 10px;
+      }
+
+      /* Soccer-themed border for images */
+      img:hover {
+        border: 3px dashed #fff;
+      }
+
+      /* Footer styling for theme relevance */
+      footer {
+        margin-top: 20px;
+        font-size: 0.9rem;
+        text-align: center;
+        color: #fdfdfd;
+        text-shadow: 1px 1px 3px #000;
+      }
+
+      /* Responsive design */
+      @media (max-width: 768px) {
+        div {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <label for="">Namaku</label>
+      <p>Muji</p>
+    </div>
+
+    <div>
+      <label for="">Alamat</label>
+      <p>Luba Hilir</p>
+    </div>
+
+    <div>
+      <img src="./gambar/muji.jpg" alt="muji" />
+    </div>
+
+    <footer>⚽ Tema Sepak Bola - Muji ⚽</footer>
+  </body>
+</html>
